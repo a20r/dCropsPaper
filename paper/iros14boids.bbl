@@ -1,0 +1,185 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{swarm}
+E.~\c{S}ahin, ``Swarm robotics: from sources of inspiration to domains of
+  application,'' in \emph{International Conference on Swarm Robotics}, 2004,
+  pp. 10--20.
+
+\bibitem{swarmReview12}
+M.~Brambilla, E.~Ferrante, M.~Birattari, and M.~Dorigo, ``Swarm robotics: a
+  review from the swarm engineering perspective,'' \emph{Swarm Intelligence},
+  pp. 1--41, 2012.
+
+\bibitem{swarmPheromone1}
+D.~Payton, M.~Daily, R.~Estowski, M.~Howard, and C.~Lee, ``Pheromone
+  robotics,'' \emph{Autonomous Robots}, vol.~11, pp. 319--324, 2001.
+
+\bibitem{swarmPheromone2}
+S.~Nouyan, A.~Campo, and M.~Dorigo, ``Path formation in a robot swarm,''
+  \emph{Swarm Intelligence}, vol.~2, no.~1, pp. 1--23, 2008.
+
+\bibitem{swarmPheromone3}
+S.~Nouyan, R.~Gro{\ss}, M.~Bonani, F.~Mondada, and M.~Dorigo, ``Teamwork in
+  self-organized robot colonies,'' \emph{IEEE Transactions on Evolutionary
+  Computation}, vol.~13, no.~4, pp. 695--711, 2009.
+
+\bibitem{swarmComm1}
+F.~Ducatelle, G.~A. Di~Caro, C.~Pinciroli, F.~Mondada, and L.~M. Gambardella,
+  ``Communication assisted navigation in robotic swarms: self-organization and
+  cooperation,'' in \emph{IEEE/RSJ International Conference on Intelligent
+  Robots and Systems}, 2011, pp. 4981--4988.
+
+\bibitem{swarmComm2}
+K.~J. O’Hara and T.~R. Balch, ``Pervasive sensor-less networks for
+  cooperative multi-robot tasks,'' in \emph{Distributed Autonomous Robotic
+  Systems 6}, 2007, pp. 305--314.
+
+\bibitem{swarmEvolve1}
+V.~Sperati, V.~Trianni, and S.~Nolfi, ``Evolving coordinated group behaviours
+  through maximisation of mean mutual information,'' \emph{Swarm Intelligence},
+  vol.~2, no. 2-4, pp. 73--95, 2008.
+
+\bibitem{swarmEvolve2}
+C.-C. Lin, K.-C. Chen, and W.-J. Chuang, ``Motion planning using a memetic
+  evolution algorithm for swarm robots,'' \emph{International Journal of
+  Advanced Robotic Systems}, vol.~9, pp. 1--9, 2012.
+
+\bibitem{swarmLeader1}
+S.~Kloder and S.~Hutchinson, ``Path planning for permutation-invariant
+  multirobot formations,'' \emph{IEEE Transactions on Robotics}, vol.~22,
+  no.~4, pp. 650--665, 2006.
+
+\bibitem{swarmLeader2}
+W.~Burgard, M.~Moors, C.~Stachniss, and F.~E. Schneider, ``Coordinated
+  multi-robot exploration,'' \emph{IEEE Transactions on Robotics}, vol.~21,
+  no.~3, pp. 376--386, 2005.
+
+\bibitem{swarmLeader3}
+G.~L. Mariottini, F.~Morbidi, D.~Prattichizzo, G.~J. Pappas, and K.~Daniilidis,
+  ``Leader-follower formations: Uncalibrated vision-based localization and
+  control,'' in \emph{IEEE International Conference on Robotics and
+  Automation}, 2007, pp. 2403--2408.
+
+\bibitem{JurVel}
+J.~Snape, J.~van~den Berg, S.~J. Guy, and D.~Manocha, ``The hybrid reciprocal
+  velocity obstacle,'' \emph{IEEE Transactions on Robotics}, vol.~27, no.~4,
+  pp. 696--706, 2011.
+
+\bibitem{swarmFixture1}
+C.~Belta and V.~Kumar, ``Optimal motion generation for groups of robots: a
+  geometric approach,'' \emph{Journal of Mechanical Design}, vol. 126, p.~63,
+  2004.
+
+\bibitem{swarmFixture2}
+T.~Eren, P.~N. Belhumeur, and A.~S. Morse, ``Closing ranks in vehicle
+  formations based on rigidity,'' in \emph{IEEE Conference on Decision and
+  Control}, vol.~3, 2002, pp. 2959--2964.
+
+\bibitem{swarmFixture3}
+W.~Ren and R.~Beard, ``Decentralized scheme for spacecraft formation flying via
+  the virtual structure approach,'' \emph{Journal of Guidance, Control, and
+  Dynamics}, vol.~27, no.~1, pp. 73--82, 2004.
+
+\bibitem{Khatib86}
+O.~Khatib, ``Real time obstacle avoidance for manipulators and mobile robots,''
+  \emph{International Journal of Robotics Research}, vol.~5, no.~1, pp. 90--99,
+  1986.
+
+\bibitem{reif1999social}
+J.~H. Reif and H.~Wang, ``Social potential fields: A distributed behavioral
+  control for autonomous robots,'' \emph{Robotics and Autonomous Systems},
+  vol.~27, no.~3, pp. 171--194, 1999.
+
+\bibitem{book:SwarmsAPFs}
+W.~M. Spears and D.~F. Spears, \emph{Physicomimetics: Physics-based swarm
+  intelligence}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2012.
+
+\bibitem{tanner2005formation}
+H.~G. Tanner and A.~Kumar, ``Formation stabilization of multiple agents using
+  decentralized navigation functions,'' in \emph{Robotics: Science and
+  Systems}, 2005, pp. 49--56.
+
+\bibitem{swarmPF1}
+V.~Gazi, ``Swarm aggregations using artificial potentials and sliding-mode
+  control,'' \emph{IEEE Transactions on Robotics}, vol.~21, no.~6, pp.
+  1208--1214, 2005.
+
+\bibitem{swarmPF2}
+L.~E. Barnes, M.-A. Fields, and K.~P. Valavanis, ``Swarm formation control
+  utilizing elliptical surfaces and limiting functions,'' \emph{IEEE
+  Transactions on Systems, Man, and Cybernetics}, vol.~39, no.~6, pp.
+  1434--1445, 2009.
+
+\bibitem{RK92}
+E.~Rimon and D.~Koditschek, ``Exact robot navigation using artificial potential
+  functions,'' \emph{IEEE Tr. on Rob. and Autom.}, vol.~8, pp. 501--518, 1992.
+
+\bibitem{PRM}
+L.~E. Kavraki, P.~\v{S}vestka, J.~C. Latombe, and M.~H. Overmars,
+  ``Probabilistic roadmaps for path planning in high-dimensional configuration
+  spaces,'' \emph{IEEE Transactions on Robotics and Automation}, vol.~12,
+  no.~4, pp. 566--580, 1996.
+
+\bibitem{RRT}
+S.~M. LaValle and J.~J. Kuffner, ``Randomized kinodynamic planning,''
+  \emph{International Journal of Robotics Research}, vol.~20, no.~5, pp.
+  378--400, 2001.
+
+\bibitem{RRTRecent1}
+S.~M. LaValle, ``Motion planning: The essentials,'' \emph{IEEE Robotics \&
+  Automation Magazine}, vol.~18, no.~1, pp. 79--89, 2011.
+
+\bibitem{TogglePRM}
+J.~Denny and N.~M. Amato, ``Toggle {PRM}: A coordinated mapping of {C}-free and
+  {C}-obstacle in arbitrary dimension,'' ser. Springer Tracts in Advanced
+  Robotics, vol.~86, 2013, pp. 297--312.
+
+\bibitem{UOBPRM}
+H.-Y. Yeh, S.~Thomas, D.~Eppstein, and N.~M. Amato, ``{UOBPRM}: A uniformly
+  distributed obstacle-based {PRM},'' in \emph{IEEE/RSJ International
+  Conference on Intelligent Robots and Systems}, 2012, pp. 2655--2662.
+
+\bibitem{PlakuTRO10}
+E.~Plaku, L.~E. Kavraki, and M.~Y. Vardi, ``Motion planning with dynamics by a
+  synergistic combination of layers of planning,'' \emph{IEEE Transactions on
+  Robotics}, vol.~26, no.~3, pp. 469--482, 2010.
+
+\bibitem{LienSwarming}
+O.~B. Bayaz{\i}t, J.-M. Lien, and N.~M. Amato, ``Swarming behavior using
+  probabilistic roadmap techniques,'' in \emph{Swarm Robotics}.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 2005, pp. 112--125.
+
+\bibitem{LienShepherding}
+J.~F. Harrison, C.~Vo, and J.-M. Lien, ``Scalable and robust shepherding via
+  deformable shapes,'' in \emph{Motion in Games}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2010, pp. 218--229.
+
+\bibitem{KostasSwarm}
+A.~Krontiris, S.~Louis, and K.~E. Bekris, ``Multi-level formation roadmaps for
+  collision-free dynamic shape changes with non-holonomic teams,'' in
+  \emph{IEEE International Conference on Robotics and Automation}, 2012.
+
+\bibitem{PlakuTAROS13boids}
+A.~Wallar and E.~Plaku, ``Path planning for swarms by combining probabilistic
+  roadmaps and potential fields,'' in \emph{Towards Autonomous Robotic
+  Systems}, Oxford, UK, 2013, in press.
+
+\end{thebibliography}

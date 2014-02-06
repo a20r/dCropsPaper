@@ -1,0 +1,89 @@
+\relax 
+\citation{swarm,swarmReview12}
+\citation{swarmPheromone1,swarmPheromone2,swarmPheromone3}
+\citation{swarmComm1,swarmComm2}
+\citation{swarmEvolve1,swarmEvolve2}
+\citation{swarmLeader1,swarmLeader2,swarmLeader3}
+\citation{JurVel}
+\citation{swarmFixture1,swarmFixture2,swarmFixture3}
+\citation{Khatib86,reif1999social,book:SwarmsAPFs,tanner2005formation,swarmPF1,swarmPF2}
+\citation{RK92}
+\citation{PRM}
+\citation{RRT,RRTRecent1,TogglePRM,UOBPRM,PlakuTRO10}
+\citation{LienSwarming,LienShepherding}
+\citation{KostasSwarm}
+\citation{PlakuTAROS13boids}
+\citation{PlakuTAROS13boids}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
+\newlabel{sec:Intro}{{I}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Problem Formulation}{2}}
+\newlabel{sec:Problem}{{II}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Method}{2}}
+\newlabel{sec:Method}{{III}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-A}Global Path Planning}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {III-A.1}Roadmap Construction}{2}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Pseudocode for $\ensuremath  {{\relax \fontsize  {9}{10pt}\selectfont  {\texttt  {dCRoPS}}}}$}}{2}}
+\newlabel{algo}{{1}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {III-A.2}Guiding the Swarm}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {III-A.3}Branching}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-B}Local Path Planning}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {III-B.1}Attraction to the Next Goal}{3}}
+\newlabel{sec:PFobst}{{III-B.2}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {III-B.2}Repulsion from Obstacles}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {III-B.3}Moving in Cohesion with Neighbors}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-C}Combining the Potential Fields}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Experiments and Results}{3}}
+\newlabel{sec:ExpResults}{{IV}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Illustration of $\ensuremath  {{\relax \fontsize  {9}{10pt}\selectfont  {\texttt  {dCRoPS}}}}$ on three different scenes. For each scene, four frames of a run of $\ensuremath  {{\relax \fontsize  {9}{10pt}\selectfont  {\texttt  {dCRoPS}}}}$ are shown. The first frame shows the swarm in the initial placement. The other three frames show how the swarm progresses towards the final goal. Static obstacles are shown in light gray. Dynamic obstacles are shown in dark grey. The initial pathway is shown in green (see first frame). Alternative pathways that are computed when some robots get stuck are shown in other colors.}}{4}}
+\newlabel{fig:Scenes}{{1}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-A}Experimental Setup}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {IV-A.1}Random Motions for the Dynamic Obstacles}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {IV-A.2}Measuring Performance}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-B}Results}{4}}
+\newlabel{sec:Results}{{IV-B}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Histogram on the time-to-reach final goal when running $\ensuremath  {{\relax \fontsize  {9}{10pt}\selectfont  {\texttt  {dCRoPS}}}}$ with $100$ boids and $15$ dynamic obstacles on each of the scenes. In each case, the overall time is divided into $25$ equally-sized intervals. The $i$-th bar indicates the percentage of robots that reached the final goal during the $i$-th time interval.}}{5}}
+\newlabel{fig:Hist}{{2}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Results show the normalized median runtime as a function of the number of robots and the number of dynamic obstacles ($D = \{5,10,15\}$). Runtime is measured as the time from the beginning till the last robot reaches the goal. Normalization corresponds to dividing the median runtime by the number of boids. }}{5}}
+\newlabel{fig:Res1}{{3}{5}}
+\bibstyle{IEEEtran}
+\bibdata{mp,plaku}
+\bibcite{swarm}{1}
+\bibcite{swarmReview12}{2}
+\bibcite{swarmPheromone1}{3}
+\bibcite{swarmPheromone2}{4}
+\bibcite{swarmPheromone3}{5}
+\bibcite{swarmComm1}{6}
+\bibcite{swarmComm2}{7}
+\bibcite{swarmEvolve1}{8}
+\bibcite{swarmEvolve2}{9}
+\bibcite{swarmLeader1}{10}
+\bibcite{swarmLeader2}{11}
+\bibcite{swarmLeader3}{12}
+\bibcite{JurVel}{13}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Qualitative comparison of $\ensuremath  {{\relax \fontsize  {9}{10pt}\selectfont  {\texttt  {dCRoPS}}}}$ with (top) branching enabled vs (bottom) branching disabled.}}{6}}
+\newlabel{fig:Branch1}{{4}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Discussion}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Impact of branching on $\ensuremath  {{\relax \fontsize  {9}{10pt}\selectfont  {\texttt  {dCRoPS}}}}$. Results show median time when enabling or disabling branching in $\ensuremath  {{\relax \fontsize  {9}{10pt}\selectfont  {\texttt  {dCRoPS}}}}$}}{6}}
+\newlabel{table}{{I}{6}}
+\@writefile{toc}{\contentsline {section}{References}{6}}
+\bibcite{swarmFixture1}{14}
+\bibcite{swarmFixture2}{15}
+\bibcite{swarmFixture3}{16}
+\bibcite{Khatib86}{17}
+\bibcite{reif1999social}{18}
+\bibcite{book:SwarmsAPFs}{19}
+\bibcite{tanner2005formation}{20}
+\bibcite{swarmPF1}{21}
+\bibcite{swarmPF2}{22}
+\bibcite{RK92}{23}
+\bibcite{PRM}{24}
+\bibcite{RRT}{25}
+\bibcite{RRTRecent1}{26}
+\bibcite{TogglePRM}{27}
+\bibcite{UOBPRM}{28}
+\bibcite{PlakuTRO10}{29}
+\bibcite{LienSwarming}{30}
+\bibcite{LienShepherding}{31}
+\bibcite{KostasSwarm}{32}
+\bibcite{PlakuTAROS13boids}{33}
